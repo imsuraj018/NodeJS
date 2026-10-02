@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Students
+    </head>
+    <body>
+        <h1>Students List</h1>
+
+        <ul>
+            <%students.forEach(student =>{
+                %>
+                <li>
+                    <%= student.id %> -
+                    <%= student.name %> -
+                    <%= student.dept %>
+                </li>
+        <%    }); %>
+        </ul>
+    </body>
+</html>
