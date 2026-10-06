@@ -1,0 +1,15 @@
+{
+  "name": "day6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "streaming.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}
